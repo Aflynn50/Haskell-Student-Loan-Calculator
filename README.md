@@ -4,10 +4,12 @@ A UK student loan interest / payoff time calculator in haskell
 The inputs, outputs and hardcoded information is specified below
 
 hardcoded:
+
     the amount of your income you spend repaying the debt (I used figures from student loan website)
     interest rate based on income (also used figures from student loan website)
 
 inputs: 
+
     1. incomeFunc   : function that gives income based on number of years after finishing uni (Int -> Float)
                       if you don't want to bother making a function for this just use "const 45000" or something 
     
@@ -23,6 +25,7 @@ inputs:
     
     
 outputs:
+
     1. amount repayed in total (Float)
     
     2. amount left to pay after calcTime years (Float)
